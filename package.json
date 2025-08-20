@@ -12,7 +12,8 @@
     "clean": "rm -rf dist/",
     "prepare": "husky",
     "prettify": "prettier . --write",
-    "prettify-check": "prettier . --check"
+    "prettify-check": "prettier . --check",
+    "add-pre-commits": "husky init"
   },
   "repository": {
     "type": "git",
